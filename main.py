@@ -372,5 +372,5 @@ if __name__ == '__main__':
     config_path = os.path.join(local_dir, 'config.txt')
 
     # Use the NEAT algorithm, uncomment one
-    run_neat(config_path) # Runs training
-    #test_neat(config_path) # Runs the best genome
+    #run_neat(config_path) # Runs training
+    test_neat(config_path) # Runs the best genome
